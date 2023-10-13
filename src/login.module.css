@@ -1,0 +1,55 @@
+:root{
+     color: #512B81;
+     margin: 0;
+}
+h3{
+    margin: 0;
+}
+.input{
+    display: block;
+    border: solid black 2px;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+
+.input::placeholder{
+    text-align: center;
+}
+
+.loginButton{
+    padding: 0.7rem 5px;
+    background-color: white;
+    border:solid black 2px ;
+}
+.button{
+    padding: 0.7rem 5px;
+    background-color: #040D12;
+    border:solid black 2px ;
+    color: white;
+}
+.loginButton .buttonSpan{
+    margin-left: 1rem;
+}
+.button:hover{
+    border-color:black;
+    background-color: white;
+    color: black;
+}
+.loginButton:hover{
+    border-color:red ;
+}
+.parent{
+    margin-top: 8px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: minmax(20rem,1fr);
+    grid-template-rows: repeat(auto-fill,3rem);
+    grid-row-gap: 8px;
+}
+.line{
+    height: 2px;
+    border: solid;
+    width: 100%;
+    background-color: black;
+}
